@@ -1,0 +1,24 @@
+.ecole{
+    border:solid;
+    border-width:1px;
+    border-radius:10px;
+    border-color:#FADBD8;
+    background-color:#F1948A;
+    margin:4vh;
+    max-width: 700px;
+    position:center;
+    padding:1rem;
+    margin-left:20%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.wild{
+    max-width:150px;
+}
+
+.ecoleText{
+    color:white;
+    
+}

@@ -1,0 +1,35 @@
+.logo{
+    max-width: 200px;
+    margin: 2rem;
+}
+.jobdate{
+    display:flex;
+    
+}
+
+.job{
+    border:solid;
+    border-width:1px;
+    border-radius:10px;
+    border-color:#2C3E50;
+    background-color:#EBF5FB;
+    margin:5vh 5vw;
+    max-width:600px
+}
+
+.title{
+    margin-left:2rem;
+    color:#2C3E50;
+}
+
+.text{
+    margin:2rem;
+    color:#2C3E50;
+}
+
+.date{
+    font-size: 1.5rem;
+    font-weight:bold;
+    align-self:center;
+    color:#2C3E50;
+}

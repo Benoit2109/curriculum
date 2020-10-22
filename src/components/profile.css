@@ -1,0 +1,17 @@
+.profile{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    color:white;
+    background-color:#2C3E50;
+    padding:2rem 0;
+}
+
+p{
+    margin:0;
+}
+
+.git{
+    max-width:60px;
+}
