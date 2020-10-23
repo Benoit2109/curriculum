@@ -1,6 +1,6 @@
 import React from 'react';
-import './experiences.css';
-import Job from "./curriculum.jsx"
+import './Experiences.css';
+import Job from "./Curriculum.jsx"
 
 const experience = [
     {
@@ -9,8 +9,9 @@ const experience = [
         Logo: "https://www.digital-make-it.com/wp-content/uploads/2019/10/accessite.png",
         Skills: ["Budgets", "Animations", "Exploitation","Relation commerçants","Gestion de syndicat de coprorpiétés"],
         Description:"Gestion de 5 centres commerçiaux sur la region OUEST pour 3 propriétaires différents",
-        Index:1,
-        Date: "Janvier 2018 - Juin 2020"
+        Id:1,
+        Date: "Janvier 2018 - Juin 2020",
+        Open:false
     },
     {
         Company: "DECATHLON",
@@ -18,36 +19,39 @@ const experience = [
         Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Decathlon_Logo.png/1200px-Decathlon_Logo.png",
         Skills: ["Budgets", "Animations", "Exploitation", "Recrutement", "Formation"],
         Description:"Co-gestion d'un magasin réalisant 10 millions de chiffre d'affaire. Animation d'une équipe de 30 collaborateurs",
-        Index:2,
-        Date: "Février 2017 - Décembre 2017"
+        Id:2,
+        Date: "Février 2017 - Décembre 2017",
+        Open:false
     },
     {
         Company: "DECATHLON",
         Role: "Responsable de rayon",
         Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Decathlon_Logo.png/1200px-Decathlon_Logo.png",
         Skills: ["Recrutement", "Animations", "Formation", "Gestion de CEX", "Commerce"],
-        Description:"Gestion d'un compte d'Exploitation de 3 millions d'euros, animation d'une équipe de 10 personnes",
-        Index:3,
-        Date: "Février 2015 - Janvier 2017"
+        Description:"Gestion d'un compte d'Exploitation de 3 millions d'euros. Animation d'une équipe de 10 personnes",
+        Id:3,
+        Date: "Février 2015 - Janvier 2017",
+        Open:false
     },
     {
         Company: "DECATHLON",
         Role: "Responsable de rayon",
         Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Decathlon_Logo.png/1200px-Decathlon_Logo.png",
         Skills: ["Recrutement", "Animations", "Formation", "Gestion de CEX", "Commerce"],
-        Description:"Gestion d'un compte d'Exploitation de 1,5 millions d'euros, animation d'une équipe de 5 personnes",
-        Index:4,
-        Date: "Novembre 2013 - Janvier 2015"
+        Description:"Gestion d'un compte d'Exploitation de 1,5 millions d'euros. Animation d'une équipe de 5 personnes",
+        Id:4,
+        Date: "Novembre 2013 - Janvier 2015",
+        Open:false
     }
 ]
 
-const Curriculum = () => (
+const Experiences = () => (
     <div>
-        {experience.map((item) => (
-            <Job {...item}/>
+        {experience.map((experience) => (
+            <Job {...experience} key={experience.Id}/>
 
         ))}
     </div>
 )
 
-export default Curriculum;
+export default Experiences;

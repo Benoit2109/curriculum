@@ -1,14 +1,16 @@
 import React from 'react';
-import Curriculum from './components/experiences.jsx'
-import Profile from './components/profile.jsx'
-import Ecole from './components/ecole.jsx'
+import Experiences from './components/Experiences.jsx'
+import Profile from './components/Profile.jsx'
+import Ecole from './components/Ecole.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
   return (
     <div className="App">
       < Profile/>
       < Ecole/>
-      < Curriculum/>
+      < Experiences/>
+      < Footer/>
     </div>
   );
 }

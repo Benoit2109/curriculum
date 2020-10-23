@@ -12,6 +12,15 @@ p{
     margin:0;
 }
 
+.projectList li{
+    margin:1rem 0;
+}
+
 .git{
-    max-width:60px;
+
+    margin-top: 1rem;
+}
+
+h1{
+    margin-bottom:0;
 }
