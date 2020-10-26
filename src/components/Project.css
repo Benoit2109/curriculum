@@ -1,7 +1,8 @@
 .img{
-    max-width: 400px;
-    height:auto;
+    height: auto;
+    width:17rem;
     margin-top: 2rem;
+    margin-bottom:5vh;
     box-shadow:4px 4px 4px grey;
     border-radius:5px;
 }
@@ -14,7 +15,9 @@
     display:flex;
     flex-direction:column;
     background-color:#D5DBDB;
+    width:100%;
     padding:2vh 0;
+    align-items:center;
     flex-wrap:wrap;
 }
 
@@ -30,12 +33,12 @@
     align-items:center;
     text-align:center;
     padding: 2vw;
-    margin:4vh;
+    margin:5vw;
     max-width:500px;
 }
 
 .infos{
-    max-width: 450px;
+    
     text-align:justify;
     color:#2C3E50;
 }
@@ -45,6 +48,13 @@
     .projects{
         flex-direction:row;
         justify-content:space-around;
+    }
+
+    .project{
+        width:450px;
+    }
+    .img{
+        width:400px;
     }
 }
 

@@ -90,21 +90,22 @@
 }
 
 @media (min-width: 768px) {
-  .jobdate:nth-child(odd) {
-    justify-content: space-around;
-  }
+  
 
   .jobdate:nth-child(even) {
     flex-direction: row-reverse;
-    justify-content: space-around;
+    
+    
   }
 
   .jobdate {
     flex-direction: row;
+    
   }
 
   .job {
     flex: 1;
+    margin:2rem 5rem;
   }
 
   .job:hover {
@@ -115,6 +116,7 @@
     flex: 1;
     padding-left: 5vw;
   }
+
 
   .logo{
       align-items:flex-end;

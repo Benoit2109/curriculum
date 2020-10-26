@@ -8,7 +8,7 @@ const Profile = () => (
   <section className="profile" id="Profile">
     <Menu />
     <img
-      src="https://lh3.googleusercontent.com/a-/AOh14GgTqQe9ika_WHVEwu5riIPT4XvJI7LiQL9fjkbRVA=s192-c-rg-br100"
+      src="https://lh3.googleusercontent.com/a-/AOh14GimrbPD1ok86IMxV9xkaiWIzlOnL7jwtZUeNhqJQQ=s192-c-rg-br100"
       alt="Benoit Le Bourdonnec"
     />
     <h1 className="name">Benoit LE BOURDONNEC</h1>
