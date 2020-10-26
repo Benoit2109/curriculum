@@ -20,8 +20,22 @@
 
 .ecoleText{
     color:white;
+    padding:2vw;
     
 }
+
+.compétence{
+    list-style-type:none;
+    display:flex;
+    justify-content:center;
+    padding-left: 0;
+}
+
+.logiciel{
+    max-height: 50px;
+    margin:2px;
+}
+
 
 @media (min-width:768px){
     .flex{

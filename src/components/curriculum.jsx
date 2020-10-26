@@ -17,7 +17,6 @@ class Job extends React.Component {
         onClick = {event=> {
             const isOpen = !this.state.Open;
             this.setState({Open: isOpen})
-            console.log(this.setState)
         }}>
           <img
             className="logo"

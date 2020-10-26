@@ -19,8 +19,23 @@ p{
 .git{
 
     margin-top: 1rem;
+    margin-right: 1rem;
+    max-height:35px;
+}
+
+.linkedIn{
+    max-height:30px;
+    margin-top:1rem;
+    margin-left:1rem;
 }
 
 h1{
     margin-bottom:0;
+}
+
+.réseaux{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-self:center;
 }

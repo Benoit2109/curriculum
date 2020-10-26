@@ -1,0 +1,79 @@
+
+
+.conteneur{
+    width:35px;
+    height:20px;
+    cursor:pointer;
+    position:fixed;
+    transform: translateX(-1rem) translateY(-1.5rem);
+    right:0;
+    
+}
+
+.burger span{
+    width:35px;
+    height:4px;
+    background-color:#F1948A;
+    display:block;
+    transform:translateY(10px);
+    border-radius:5px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.burger span::before, .burger span::after{
+    content:'';
+    position: absolute;
+    width:100%;
+    height:4px;
+    background-color:#F1948A;
+    transition:transform 0.5s ease-in-out;
+}
+
+.burger span::before{
+    transform:translateY(-10px);
+    border-radius:5px;
+}
+
+.burger span::after{
+    transform:translateY(10px);
+    border-radius:5px;
+}
+
+.burger .active span{
+    background-color:transparent;  
+}
+
+.burger .active span::before{
+    transform:translateY(0px) rotateZ(45deg);
+    
+}
+
+.burger .active span::after{
+    transform:translateY(0px) rotateZ(-45deg);
+    
+}
+
+.menu{
+    list-style-type: none;
+
+}
+
+.menu li{
+    margin:2vh;
+    color:#F1948A;
+}
+
+.slideWindow{
+    transform:translateX(-3rem);
+    transition:all 0.4s ease-in-out;
+    position:fixed;
+    right:0;
+    background-color:white;
+    
+}
+.slideWindowClose{
+    transform:translateX(10rem);
+    transition:all 0.4s ease-in-out;
+    position:fixed;
+    right:0;
+}
