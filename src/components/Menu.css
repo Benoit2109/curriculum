@@ -39,16 +39,16 @@
     border-radius:5px;
 }
 
-.burger .active span{
+.burger.active span{
     background-color:transparent;  
 }
 
-.burger .active span::before{
+.burger.active span::before{
     transform:translateY(0px) rotateZ(45deg);
     
 }
 
-.burger .active span::after{
+.burger.active span::after{
     transform:translateY(0px) rotateZ(-45deg);
     
 }
