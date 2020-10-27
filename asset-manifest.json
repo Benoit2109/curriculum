@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/curriculum/static/css/main.034502b5.chunk.css",
-    "main.js": "/curriculum/static/js/main.cf309157.chunk.js",
-    "main.js.map": "/curriculum/static/js/main.cf309157.chunk.js.map",
+    "main.js": "/curriculum/static/js/main.0b0a1dba.chunk.js",
+    "main.js.map": "/curriculum/static/js/main.0b0a1dba.chunk.js.map",
     "runtime-main.js": "/curriculum/static/js/runtime-main.6f6a4d16.js",
     "runtime-main.js.map": "/curriculum/static/js/runtime-main.6f6a4d16.js.map",
     "static/js/2.676c0362.chunk.js": "/curriculum/static/js/2.676c0362.chunk.js",
     "static/js/2.676c0362.chunk.js.map": "/curriculum/static/js/2.676c0362.chunk.js.map",
     "index.html": "/curriculum/index.html",
-    "precache-manifest.fe4783991e66df7cc2d5273d48349ec3.js": "/curriculum/precache-manifest.fe4783991e66df7cc2d5273d48349ec3.js",
+    "precache-manifest.3a4d2d4af6a86df1d50c121541951f30.js": "/curriculum/precache-manifest.3a4d2d4af6a86df1d50c121541951f30.js",
     "service-worker.js": "/curriculum/service-worker.js",
     "static/css/main.034502b5.chunk.css.map": "/curriculum/static/css/main.034502b5.chunk.css.map",
     "static/js/2.676c0362.chunk.js.LICENSE.txt": "/curriculum/static/js/2.676c0362.chunk.js.LICENSE.txt",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.6f6a4d16.js",
     "static/js/2.676c0362.chunk.js",
     "static/css/main.034502b5.chunk.css",
-    "static/js/main.cf309157.chunk.js"
+    "static/js/main.0b0a1dba.chunk.js"
   ]
 }
