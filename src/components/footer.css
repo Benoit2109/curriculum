@@ -8,7 +8,8 @@
   align-items:center;
   font-size: 0.8rem;
   margin:0;
-  height:5vh;
+  height:7vh;
+
 }
 
 a{
@@ -16,6 +17,8 @@ a{
     font-weight:bold;
     text-decoration:none;
 }
+
+
 
 @media (min-width:768px){
   .footer{
