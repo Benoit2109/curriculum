@@ -21,7 +21,7 @@
 }
 
 .job .open {
-  height: 30vh;
+  height: 32vh;
   transition: all 0.5s ease-in-out;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .open .skills {
-  height: 13vh;
+  height: 14vh;
   opacity: 1;
   transition: all 0.7s ease-in-out;
 }
@@ -80,7 +80,7 @@
 }
 
 .open .description {
-  height: 5vh;
+  height: 10vh;
   opacity: 1;
   transition: all 0.7s ease-in-out;
 }
