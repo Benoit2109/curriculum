@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "17454a3250a7915fbeef4bc6c8ae5847",
+    "revision": "90d7247a3d6019aac32e8d6bfe0a9063",
     "url": "/curriculum/index.html"
   },
   {
-    "revision": "aaa546db3d83e91ff2c1",
-    "url": "/curriculum/static/css/main.034502b5.chunk.css"
+    "revision": "03ac7c4fb2508a129b55",
+    "url": "/curriculum/static/css/main.6504a144.chunk.css"
   },
   {
-    "revision": "d3c7284e7518db0b2a07",
-    "url": "/curriculum/static/js/2.676c0362.chunk.js"
+    "revision": "d42d20dc8b624b3e97e2",
+    "url": "/curriculum/static/js/2.c70d31c7.chunk.js"
   },
   {
     "revision": "570d362d673dab785e62d2b8563e1118",
-    "url": "/curriculum/static/js/2.676c0362.chunk.js.LICENSE.txt"
+    "url": "/curriculum/static/js/2.c70d31c7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aaa546db3d83e91ff2c1",
-    "url": "/curriculum/static/js/main.6b719a4c.chunk.js"
+    "revision": "03ac7c4fb2508a129b55",
+    "url": "/curriculum/static/js/main.55f39cb3.chunk.js"
   },
   {
     "revision": "ea8537b673971a69b88d",
     "url": "/curriculum/static/js/runtime-main.6f6a4d16.js"
+  },
+  {
+    "revision": "6776aeed2d3f09ab4bbe013938c5e799",
+    "url": "/curriculum/static/media/Ben_profile.6776aeed.jpg"
   },
   {
     "revision": "9871754a7aad79a6fbab17d084a16a20",
@@ -37,7 +41,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "2c615213f8ba7f36c39fac7abe8887d8",
-    "url": "/curriculum/static/media/calendrier_avant.2c615213.png"
+    "url": "/curriculum/static/media/calendrier_avent.2c615213.png"
   },
   {
     "revision": "d649c415297b200eaf3345fbce6b99a1",
