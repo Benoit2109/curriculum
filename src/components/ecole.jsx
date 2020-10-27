@@ -20,7 +20,7 @@ const Ecole = () => (
         <h2>Wild Code School</h2>
         <h3>Formation developpeur web / mobile</h3>
         <p>
-          5 mois et 4 mois de stage, formation débuté le 11 septembre 2020. 3
+          5 mois et 4 mois de stage, formation débutée le 11 septembre 2020. 3
           projets d'applications structurent la formation et seront accessibles
           sur GitHub Pages.
         </p>
