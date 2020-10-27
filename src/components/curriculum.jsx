@@ -32,7 +32,6 @@ class Job extends React.Component {
             <ul className="skills">
               <li>{this.props.Skills[0]}</li>
               <li>{this.props.Skills[1]}</li>
-              <li>{this.props.Skills[2]}</li>
               <li>{this.props.Skills[3]}</li>
               <li>{this.props.Skills[4]}</li>
             </ul>
