@@ -8,6 +8,11 @@
     padding:2rem 0;
 }
 
+.beaugosse{
+    height:250px;
+    clip-path:ellipse(50% 40%);
+}
+
 p{
     margin:0;
 }

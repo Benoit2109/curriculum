@@ -93,6 +93,17 @@
   margin-top: 3vh;
 }
 
+.spanClose{
+  font-size:0.8rem;
+  transition: all 0.7s ease-in-out;
+}
+
+.spanOpen{
+  color:transparent;
+  font-size:0.8rem;
+  transition: all 0.7s ease-in-out;
+}
+
 @media (min-width: 768px) {
   
 

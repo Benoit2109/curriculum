@@ -1,12 +1,12 @@
 import React from "react";
-import "./Ecole.css";
+import "./School.css";
 import ReactLogo from "./image/ReactLogoBlack.png";
 import CSSLogo from "./image/CSS.png";
 import HTML5 from "./image/HTML5_logo_black.png";
 import Node from "./image/node.png";
 import JS from "./image/Javascript.png";
 
-const Ecole = () => (
+const School = () => (
   <section className="flex" id="WildCodeSchool">
     <div className="ecole">
       <div>
@@ -49,4 +49,4 @@ const Ecole = () => (
   </section>
 );
 
-export default Ecole;
+export default School;
