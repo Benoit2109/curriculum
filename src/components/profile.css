@@ -13,6 +13,12 @@
     clip-path:ellipse(50% 40%);
 }
 
+.who{
+    max-width: 800px;
+    margin: 2rem 2rem 0 2rem;
+    text-align: center;
+}
+
 p{
     margin:0;
 }
@@ -33,6 +39,13 @@ p{
     margin-top:1rem;
     margin-left:1rem;
 }
+
+.cv{
+    max-height:40px;
+    margin-top:0.6rem;
+    margin-left:1.4rem;
+}
+
 
 h1{
     margin-bottom:0;

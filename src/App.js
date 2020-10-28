@@ -10,7 +10,9 @@ function App() {
     <div className="App">
       <Profile />
       <School />
+      <h2 className="SectionPartPF">Portfolio</h2>
       <Portfolio />
+      <h2 className="SectionPart">Expériences</h2>
       <Experiences />
       <Footer />
     </div>

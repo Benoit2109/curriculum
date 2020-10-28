@@ -7,6 +7,8 @@ import Node from "./image/node.png";
 import JS from "./image/Javascript.png";
 
 const School = () => (
+  <div>
+  <h2 className="SectionPart">Formation</h2>
   <section className="flex" id="WildCodeSchool">
     <div className="ecole">
       <div>
@@ -20,9 +22,11 @@ const School = () => (
         <h2>Wild Code School</h2>
         <h3>Formation developpeur web / mobile</h3>
         <p className="schoolDescription">
-          5 mois (700h) et 4 mois de stage (15 février au 11 juin 2021), formation débutée le 11 septembre 2020. 3
-          projets d'applications structurent la formation et seront accessibles
-          sur GitHub Pages. Nous apprenons et travaillons en utilisant les méthodes agiles, notamment SCRUM.
+          5 mois (700h) et 4 mois de stage (15 février au 11 juin 2021),
+          formation débutée le 11 septembre 2020. 3 projets d'applications
+          structurent la formation et seront accessibles sur GitHub Pages. Nous
+          apprenons et travaillons en utilisant les méthodes agiles, notamment
+          SCRUM.
         </p>
       </div>
       <div className="compétences">
@@ -45,10 +49,17 @@ const School = () => (
           </li>
         </ul>
       </div>
-      
-      <p className="schoolLink">en savoir plus sur la <a href="https://www.wildcodeschool.com/fr-FR">Wild Code School</a>.</p>
+      <div className="WCS">
+        <p className="schoolLink">
+          en savoir plus sur la{" "}
+          <a href="https://www.wildcodeschool.com/fr-FR">Wild Code School</a> et la <a href="https://syllabus.wildcodeschool.com/fr/web-developer-full-time">formation</a>.
+        </p>
+        
+      </div>
     </div>
   </section>
+  </div>
+
 );
 
 export default School;

@@ -13,6 +13,8 @@ class Job extends React.Component {
   render() {
     const{Date, Logo, Company, Role, Skills, Description } = this.props;
     return (
+      
+      
       <section className="jobdate" >
         <div className="date">{Date}</div>
         <div className="job" 
@@ -41,6 +43,7 @@ class Job extends React.Component {
           </div>
         </div>
       </section>
+      
     );
   }
 }

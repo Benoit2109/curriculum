@@ -4,7 +4,7 @@ import Job from "./Curriculum.jsx"
 
 const experience = [
     {
-        Company: "ACCESSITE",
+        Company: "ACCESSITE (44)",
         Role: "Directeur Multi-Sites OUEST",
         Logo: "https://www.digital-make-it.com/wp-content/uploads/2019/10/accessite.png",
         Skills: ["Budgets", "Animations", "Exploitation","Relation commerçants","Gestion de syndicat de coprorpiétés"],
@@ -14,7 +14,7 @@ const experience = [
         Open:false
     },
     {
-        Company: "DECATHLON",
+        Company: "DECATHLON NANTES (44)",
         Role: "Directeur adjoint",
         Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Decathlon_Logo.png/1200px-Decathlon_Logo.png",
         Skills: ["Budgets", "Animations", "Exploitation", "Recrutement", "Formation"],
@@ -24,7 +24,7 @@ const experience = [
         Open:false
     },
     {
-        Company: "DECATHLON",
+        Company: "DECATHLON RENNES (35)",
         Role: "Responsable de rayon",
         Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Decathlon_Logo.png/1200px-Decathlon_Logo.png",
         Skills: ["Recrutement", "Animations", "Formation", "Gestion de CEX", "Commerce"],
@@ -34,7 +34,7 @@ const experience = [
         Open:false
     },
     {
-        Company: "DECATHLON",
+        Company: "DECATHLON ANCENIS (44)",
         Role: "Responsable de rayon",
         Logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Decathlon_Logo.png/1200px-Decathlon_Logo.png",
         Skills: ["Recrutement", "Animations", "Formation", "Gestion de CEX", "Commerce"],

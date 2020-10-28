@@ -4,6 +4,7 @@ import GitHub from "./image/GitHub.png";
 import Menu from "./Menu.jsx";
 import linkedIn from "./image/linkedIn.png";
 import Ben_profile from "./image/Ben_profile.jpg"
+import cv from "./image/cv.png"
 
 const Profile = () => (
   <section className="profile" id="Profile">
@@ -21,6 +22,14 @@ const Profile = () => (
       <a href="https://www.linkedin.com/in/benoit-le-bourdonnec-8b17495b/">
         <img className="linkedIn" src={linkedIn} alt="linkedin" />
       </a>
+      <a href="CV_DEV.pdf" download>
+        <img className="cv" alt="cv" src={cv} />
+      </a>
+    </div>
+    <div>
+      <p className="who">Actuellement en reconversion, je souhaite redonner un sens à mon avenir professionnel en devenant développeur web mobile front-end (REACT / JS). 
+        
+      </p>
     </div>
   </section>
 );
