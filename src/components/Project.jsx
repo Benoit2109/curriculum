@@ -24,10 +24,16 @@ const project = [
   },
 ];
 
-
 class Projects extends React.Component {
   render() {
-    const { Name, Illustration, Released, Description, Link, Repo } = this.props;
+    const {
+      Name,
+      Illustration,
+      Released,
+      Description,
+      Link,
+      Repo,
+    } = this.props;
     return (
       <div className="project">
         <div className="illustration">
@@ -45,7 +51,10 @@ class Projects extends React.Component {
           </p>
           <div>
             <p>
-              Lien du <a className="Linkblue" href={Repo}>repo Github.</a>
+              Lien du{" "}
+              <a className="Linkblue" href={Repo}>
+                repo Github.
+              </a>
             </p>
           </div>
         </div>

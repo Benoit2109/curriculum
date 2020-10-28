@@ -5,34 +5,32 @@ class Job extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-        Open: props.open,
-    }
+      Open: props.open,
+    };
   }
 
-  
   render() {
-    const{Date, Logo, Company, Role, Skills, Description } = this.props;
+    const { Date, Logo, Company, Role, Skills, Description } = this.props;
     return (
-      
-      
-      <section className="jobdate" >
+      <section className="jobdate">
         <div className="date">{Date}</div>
-        <div className="job" 
-        onClick = {event=> {
+        <div
+          className="job"
+          onClick={(event) => {
             const isOpen = !this.state.Open;
-            this.setState({Open: isOpen})
-        }}>
-          <img
-            className="logo"
-            src={Logo}
-            alt={Company}
-          />
+            this.setState({ Open: isOpen });
+          }}
+        >
+          <img className="logo" src={Logo} alt={Company} />
           <div className="title">
             <h2 className="company">{Company}</h2>
-            <h3 className="role">{Role}</h3><span className={this.state.Open? "spanOpen":"spanClose"}>(en savoir plus...)</span>
+            <h3 className="role">{Role}</h3>
+            <span className={this.state.Open ? "spanOpen" : "spanClose"}>
+              (en savoir plus...)
+            </span>
           </div>
-          
-          <div className={this.state.Open? "open":"close"}>
+
+          <div className={this.state.Open ? "open" : "close"}>
             <ul className="skills">
               <li>{Skills[0]}</li>
               <li>{Skills[1]}</li>
@@ -43,7 +41,6 @@ class Job extends React.Component {
           </div>
         </div>
       </section>
-      
     );
   }
 }

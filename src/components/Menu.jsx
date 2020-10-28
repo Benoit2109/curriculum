@@ -11,22 +11,23 @@ class Menu extends React.Component {
 
   render() {
     return (
-        <div>
-        <div className="conteneur" onClick={(event) => {
-          const isActive = !this.state.Active;
-          this.setState({ Active: isActive });
-        }}>
+      <div>
+        <div
+          className="conteneur"
+          onClick={(event) => {
+            const isActive = !this.state.Active;
+            this.setState({ Active: isActive });
+          }}
+        >
           <div className={this.state.Active ? "burger active" : "burger"}>
             <span></span>
           </div>
         </div>
-        <div 
-        
-        className={this.state.Active? "slideWindow":"slideWindowClose"}>
+        <div className={this.state.Active ? "slideWindow" : "slideWindowClose"}>
           <ul className="menu">
-          <a href="#Profile">
+            <a href="#Profile">
               <li>Profil</li>
-            </a>  
+            </a>
             <a href="#WildCodeSchool">
               <li>Formation</li>
             </a>
@@ -38,7 +39,7 @@ class Menu extends React.Component {
             </a>
           </ul>
         </div>
-        </div>
+      </div>
     );
   }
 }
