@@ -1,4 +1,11 @@
+.schoolDescription{
+    text-align:justify;
+}
 
+.schoolLink{
+    color:white;
+    font-size:0.8rem;
+}
 
 .ecole{
     border:solid;

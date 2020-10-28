@@ -25,7 +25,7 @@ class Menu extends React.Component {
         className={this.state.Active? "slideWindow":"slideWindowClose"}>
           <ul className="menu">
           <a href="#Profile">
-              <li>Profile</li>
+              <li>Profil</li>
             </a>  
             <a href="#WildCodeSchool">
               <li>Formation</li>
