@@ -19,7 +19,7 @@ const project = [
     Illustration: VegeNantesGo,
     Released: "27 nov 2020.",
     Description:
-      "le cahier des charges de ce deuxième projet a pour objectif de réaliser un site JS/REACT utilisant des APIs pour localiser et identifier les plantes des parcs et jardins de la ville de Nantes. Ce projet dure 6 semaines et l'équipe est composé de 5 personnes travaillant selon la méthode agile SCRUM",
+      "le cahier des charges de ce deuxième projet a pour objectif de réaliser un site JS/REACT utilisant des APIs pour localiser et identifier les plantes des parcs et jardins de la ville de Nantes. Ce projet dure 6 semaines et l'équipe est composé de 5 personnes travaillant selon la méthode agile SCRUM.",
     Id: 2,
   },
 ];
