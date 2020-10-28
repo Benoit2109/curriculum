@@ -52,7 +52,7 @@ const experience = [
       "Commerce",
     ],
     Description:
-      "Gestion d'un compte d'Exploitation de 3 millions d'euros. Animation d'une équipe de 10 personnes",
+      "Gestion d'un compte d'Exploitation de 3,5 millions d'euros. Animation d'une équipe de 10 personnes",
     id: 3,
     Date: "Février 2015 - Janvier 2017",
     Open: false,
@@ -70,7 +70,7 @@ const experience = [
       "Commerce",
     ],
     Description:
-      "Gestion d'un compte d'Exploitation de 1,5 millions d'euros. Animation d'une équipe de 5 personnes",
+      "Gestion d'un compte d'Exploitation de 2 millions d'euros. Animation d'une équipe de 5 personnes",
     id: 4,
     Date: "Novembre 2013 - Janvier 2015",
     Open: false,
