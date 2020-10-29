@@ -2,7 +2,7 @@ import React from "react";
 import "./School.css";
 import ReactLogo from "./image/ReactLogoBlack.png";
 import CSSLogo from "./image/CSS.png";
-import HTML5 from "./image/HTML5_logo_black.png";
+import HTML5 from "./image/image.png";
 import Node from "./image/node.png";
 import JS from "./image/Javascript.png";
 
