@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e551c9536592a5df5a7f859beaaaafa2",
+    "revision": "4c140f9c3b246d3f99725f8346bbf23c",
     "url": "/curriculum/index.html"
   },
   {
-    "revision": "8c19a5549efd90eb5837",
+    "revision": "f731989563b931b29bb3",
     "url": "/curriculum/static/css/main.d94ff643.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/curriculum/static/js/2.9d049df3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8c19a5549efd90eb5837",
-    "url": "/curriculum/static/js/main.66e793ba.chunk.js"
+    "revision": "f731989563b931b29bb3",
+    "url": "/curriculum/static/js/main.10e5d6f2.chunk.js"
   },
   {
     "revision": "ea8537b673971a69b88d",
@@ -26,10 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6776aeed2d3f09ab4bbe013938c5e799",
     "url": "/curriculum/static/media/Ben_profile.6776aeed.jpg"
-  },
-  {
-    "revision": "9871754a7aad79a6fbab17d084a16a20",
-    "url": "/curriculum/static/media/HTML5_logo_black.9871754a.png"
   },
   {
     "revision": "8f6e28dd2b398c7392c2a052841bf66e",
@@ -42,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2c615213f8ba7f36c39fac7abe8887d8",
     "url": "/curriculum/static/media/calendrier_avent.2c615213.png"
+  },
+  {
+    "revision": "37e2ed88893ffda3b1a2c4dd165bfc38",
+    "url": "/curriculum/static/media/image.37e2ed88.png"
   },
   {
     "revision": "d649c415297b200eaf3345fbce6b99a1",
