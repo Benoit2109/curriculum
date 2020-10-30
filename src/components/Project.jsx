@@ -9,7 +9,7 @@ const project = [
     Illustration: calendrier_avent,
     Released: "9 octobre 2020.",
     Description:
-      "le cachier des charges de ce premier projet a pour objectif de réaliser un site de quelques pages en HTML/CSS/JAVASCRIPT avec des liens permettant la navigation entre elles. Le site doit être responsive. Nous avons le choix de réaliser un calendrier de l'avent qui devra être fonctionnel pour le premier décembre. Le rendu actuel est le travail réalisé en 10 jours, par une équipe de 3 personnes après un mois de formation.",
+      "le cahier des charges de ce premier projet a pour objectif de réaliser un site de quelques pages en HTML/CSS/JAVASCRIPT avec des liens permettant la navigation entre elles. Le site doit être responsive. Nous avons le choix de réaliser un calendrier de l'avent qui devra être fonctionnel pour le premier décembre. Le rendu actuel est le travail réalisé en 10 jours, par une équipe de 3 personnes après un mois de formation.",
     Id: 1,
     Active: true,
     Link: "https://baptiste-gfy.github.io/calendrier_avant/",
