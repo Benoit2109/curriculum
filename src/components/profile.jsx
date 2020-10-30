@@ -19,7 +19,7 @@ const Profile = () => (
       <a href="https://www.linkedin.com/in/benoit-le-bourdonnec-8b17495b/">
         <img className="linkedIn" src={linkedIn} alt="linkedin" />
       </a>
-      <a href="CV DEV.pdf" download>
+      <a href="Benoit Le Bourdonnec.pdf" download>
         <img className="cv" alt="cv" src={cv} />
       </a>
     </div>
