@@ -16,7 +16,7 @@ const Profile = () => (
       <a href="https://github.com/Benoit2109?tab=repositories">
         <img className="git" src={GitHub} alt="git" />
       </a>
-      <a href="https://www.linkedin.com/in/benoit-le-bourdonnec-8b17495b/">
+      <a href="https://www.linkedin.com/in/benoit-le-bourdonnec/">
         <img className="linkedIn" src={linkedIn} alt="linkedin" />
       </a>
       <a href="Benoit Le Bourdonnec.pdf" download>
