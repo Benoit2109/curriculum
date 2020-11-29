@@ -1,28 +1,29 @@
 {
   "files": {
     "main.css": "/curriculum/static/css/main.d94ff643.chunk.css",
-    "main.js": "/curriculum/static/js/main.84d30037.chunk.js",
-    "main.js.map": "/curriculum/static/js/main.84d30037.chunk.js.map",
+    "main.js": "/curriculum/static/js/main.69cb1293.chunk.js",
+    "main.js.map": "/curriculum/static/js/main.69cb1293.chunk.js.map",
     "runtime-main.js": "/curriculum/static/js/runtime-main.6f6a4d16.js",
     "runtime-main.js.map": "/curriculum/static/js/runtime-main.6f6a4d16.js.map",
-    "static/js/2.9d049df3.chunk.js": "/curriculum/static/js/2.9d049df3.chunk.js",
-    "static/js/2.9d049df3.chunk.js.map": "/curriculum/static/js/2.9d049df3.chunk.js.map",
+    "static/js/2.463af861.chunk.js": "/curriculum/static/js/2.463af861.chunk.js",
+    "static/js/2.463af861.chunk.js.map": "/curriculum/static/js/2.463af861.chunk.js.map",
     "index.html": "/curriculum/index.html",
-    "precache-manifest.f09aaee56a324b6584f3c0e9fdda76c6.js": "/curriculum/precache-manifest.f09aaee56a324b6584f3c0e9fdda76c6.js",
+    "precache-manifest.2358e5261df2fb136db6db2df65df4fe.js": "/curriculum/precache-manifest.2358e5261df2fb136db6db2df65df4fe.js",
     "service-worker.js": "/curriculum/service-worker.js",
     "static/css/main.d94ff643.chunk.css.map": "/curriculum/static/css/main.d94ff643.chunk.css.map",
-    "static/js/2.9d049df3.chunk.js.LICENSE.txt": "/curriculum/static/js/2.9d049df3.chunk.js.LICENSE.txt",
+    "static/js/2.463af861.chunk.js.LICENSE.txt": "/curriculum/static/js/2.463af861.chunk.js.LICENSE.txt",
     "static/media/Ben_profile.jpg": "/curriculum/static/media/Ben_profile.6776aeed.jpg",
+    "static/media/EnAttendantNoel.png": "/curriculum/static/media/EnAttendantNoel.98b0de31.png",
+    "static/media/MiddleTrade.png": "/curriculum/static/media/MiddleTrade.e5179f6a.png",
     "static/media/ReactLogoBlack.png": "/curriculum/static/media/ReactLogoBlack.8f6e28dd.png",
     "static/media/VegeNantesGO.png": "/curriculum/static/media/VegeNantesGO.97313689.png",
-    "static/media/calendrier_avent.png": "/curriculum/static/media/calendrier_avent.2c615213.png",
     "static/media/image.png": "/curriculum/static/media/image.37e2ed88.png",
     "static/media/node.png": "/curriculum/static/media/node.d649c415.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6f6a4d16.js",
-    "static/js/2.9d049df3.chunk.js",
+    "static/js/2.463af861.chunk.js",
     "static/css/main.d94ff643.chunk.css",
-    "static/js/main.84d30037.chunk.js"
+    "static/js/main.69cb1293.chunk.js"
   ]
 }
