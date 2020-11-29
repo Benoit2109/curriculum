@@ -1,7 +1,7 @@
 import React from "react";
 import "./Project.css";
 import calendrier_avent from "./image/calendrier_avent.png";
-import VegeNantesGo from "./image/VegeNantesGo.png";
+import VegeNantesGo from "./image/VegeNantesGO.png";
 
 const project = [
   {
@@ -22,7 +22,9 @@ const project = [
     Description:
       "le cahier des charges de ce deuxième projet a pour objectif de réaliser un site JS/REACT utilisant des APIs pour localiser et identifier les plantes des parcs et jardins de la ville de Nantes. Ce projet dure 6 semaines et l'équipe est composé de 5 personnes travaillant selon la méthode agile SCRUM.",
     Id: 2,
-    Active: false,
+    Active: true,
+    Link: "https://vegenantesgo.netlify.app/",
+    Repo:"https://github.com/WildCodeSchool/nts-js-202009-p2-herbier",
   },
 ];
 
