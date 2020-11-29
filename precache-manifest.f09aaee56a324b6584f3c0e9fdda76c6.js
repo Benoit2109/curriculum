@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "139a92e4a8cae5ce0f1ed3d501a28816",
+    "revision": "e78b8b648b2da271ee65e8eb686970c1",
     "url": "/curriculum/index.html"
   },
   {
-    "revision": "493a11a12a2637a976c3",
+    "revision": "6126d0361be80d4180e6",
     "url": "/curriculum/static/css/main.d94ff643.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/curriculum/static/js/2.9d049df3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "493a11a12a2637a976c3",
-    "url": "/curriculum/static/js/main.85f64659.chunk.js"
+    "revision": "6126d0361be80d4180e6",
+    "url": "/curriculum/static/js/main.84d30037.chunk.js"
   },
   {
     "revision": "ea8537b673971a69b88d",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/curriculum/static/media/ReactLogoBlack.8f6e28dd.png"
   },
   {
-    "revision": "60f4d566eaffababb73c51650bb9538c",
-    "url": "/curriculum/static/media/VegeNantesGo.60f4d566.png"
+    "revision": "9731368995b61632d8ab3400744c9a06",
+    "url": "/curriculum/static/media/VegeNantesGO.97313689.png"
   },
   {
     "revision": "2c615213f8ba7f36c39fac7abe8887d8",
