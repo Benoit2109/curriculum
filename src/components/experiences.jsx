@@ -13,7 +13,7 @@ const experience = [
       "Animations",
       "Exploitation",
       "Relation commerçants",
-      "Gestion de syndicat de coprorpiétés",
+      "Gestion de syndicat de copropriétés",
     ],
     Description:
       "Gestion de 5 centres commerçiaux sur la region OUEST pour 3 propriétaires différents",
