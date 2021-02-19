@@ -1,9 +1,12 @@
 .SectionPart{
-    margin-left:2rem;
+    margin-left: 2rem;
     color:#2C3E50;
     font-size:2.9rem;
   }
-
+#WildCodeSchool{
+    width: 100vw;
+    margin:auto;
+}
 .schoolDescription{
     text-align:justify;
 }
@@ -56,9 +59,9 @@
 
 
 @media (min-width:768px){
-    .flex{
-        display:flex;
-        justify-content:center;
+    #WildCodeShool{
+       display: flex;
+       justify-content: center;
     }
 
     .wild{

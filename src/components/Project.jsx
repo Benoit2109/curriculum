@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
 import "./Project.css";
+import "aos/dist/aos.css";
 import EnAttendantNoel from "./image/EnAttendantNoel.png";
-import VegeNantesGo from "./image/VegeNantesGO.png";
+import VegeNantesGo from "./image/VegeNantesGo.png";
 import MiddleTrade from "./image/MiddleTrade.png";
 import Whereisben from "./image/whereisben.jpg";
 
@@ -19,13 +21,14 @@ const project = [
   },
   {
     Name: "Middle Trade",
-    Illustration: MiddleTrade ,
+    Illustration: MiddleTrade,
     Released: "20 novembre 2020",
-    Description:"Premier Hackathon de 24h de la formation, le thème imposée était d'inventer une application qui aurait pu aider la population d'une époque antérieur au numérique. Nous avons opter pour une application de troc au Moyen-Age, Middle Trade. Le résultat est le travail de 4 personnes après seulement 2 mois de formation et en 24 heures chrono.",
-    Active:true,
-    Link:"https://middle-trade.netlify.app/",
-    Repo:"https://github.com/Benoit2109/hackathon1-Middle-Trade.git",
-    Id: 2
+    Description:
+      "Premier Hackathon de 24h de la formation, le thème imposée était d'inventer une application qui aurait pu aider la population d'une époque antérieur au numérique. Nous avons opter pour une application de troc au Moyen-Age, Middle Trade. Le résultat est le travail de 4 personnes après seulement 2 mois de formation et en 24 heures chrono.",
+    Active: true,
+    Link: "https://middle-trade.netlify.app/",
+    Repo: "https://github.com/Benoit2109/hackathon1-Middle-Trade.git",
+    Id: 2,
   },
   {
     Name: "VegeNantes Go",
@@ -36,7 +39,7 @@ const project = [
     Id: 3,
     Active: true,
     Link: "https://vegenantesgo.netlify.app/",
-    Repo:"https://github.com/WildCodeSchool/nts-js-202009-p2-herbier",
+    Repo: "https://github.com/WildCodeSchool/nts-js-202009-p2-herbier",
   },
   {
     Name: "Where the hell is Ben?",
@@ -47,8 +50,8 @@ const project = [
     Id: 4,
     Active: true,
     Link: "https://wherethehellisben.netlify.app/",
-    Repo:"https://github.com/Benoit2109/whereisben.git",
-    RepoBack:"https://github.com/Benoit2109/whereisben_back.git",
+    Repo: "https://github.com/Benoit2109/whereisben.git",
+    RepoBack: "https://github.com/Benoit2109/whereisben_back.git",
   },
 ];
 
@@ -67,10 +70,11 @@ class Projects extends React.Component {
       Description,
       Link,
       Repo,
-      RepoBack
+      RepoBack,
+      Id,
     } = this.props;
     return (
-      <div className={this.state.Active ? "project" : "noProject"}>
+      <div data-aos={Id%2===0?"fade-left":"fade-right"} className={this.state.Active ? "project" : "noProject"}>
         <div className="illustration">
           <a href={Link}>
             <img className="img" src={Illustration} alt={Name} />
@@ -91,12 +95,16 @@ class Projects extends React.Component {
                 repo Github.
               </a>
             </p>
-            {RepoBack? <p className="github">
-              Lien du{" "}
-              <a className="Linkblue" href={RepoBack}>
-                repo Github.
-              </a>
-            </p>:""}
+            {RepoBack ? (
+              <p className="github">
+                Lien du{" "}
+                <a className="Linkblue" href={RepoBack}>
+                  repo Github.
+                </a>
+              </p>
+            ) : (
+              ""
+            )}
           </div>
         </div>
       </div>
@@ -104,12 +112,18 @@ class Projects extends React.Component {
   }
 }
 
-const Portfolio = () => (
-  <div className="projects" id="Portfolio">
-    {project.map((project) => (
-      <Projects {...project} key={project.Id} />
-    ))}
-  </div>
-);
+const Portfolio = () => {
+  
+  return (
+    <div className="projects" id="Portfolio">
+      <h2 data-aos="fade-right" className="SectionPart">Portfolio</h2>
+      <div className="projects-contener">
+        {project.map((project) => (
+          <Projects {...project} key={project.Id} />
+        ))}
+      </div>
+    </div>
+  );
+};
 
 export default Portfolio;

@@ -1,18 +1,28 @@
-.SectionPartPF {
-  margin-left: 2rem;
+#Portfolio .SectionPart {
+  margin-left: 4rem;
   margin-bottom: 2rem;
   color: #2c3e50;
-  transform: translateY(7.5rem);
   font-size: 2.9rem;
+  text-align: left;
+}
+
+#Portfolio .SectionPart{
+  text-align: left;
+  width: 100%;
 }
 
 .img {
   height: auto;
-  width: 17rem;
+  width: 100%;
   margin-top: 2rem;
   margin-bottom: 5vh;
   box-shadow: 4px 4px 4px grey;
   border-radius: 5px;
+}
+
+.illustration{
+  width: 60vw;
+  height: auto;
 }
 
 .img:active {
@@ -23,16 +33,17 @@
   display: flex;
   flex-direction: column;
   background-color: #839192;
-  width: 100%;
-  padding: 2vh 0;
+  width: 96vw;
+  padding: 2vh 2vw;
   align-items: center;
   flex-wrap: wrap;
+  align-content: center;
 }
 
-.project:first-child {
-  margin-top: 6rem;
+.projects-contener{
+  max-width: 90vw;
+  align-items: center;
 }
-
 
 .project {
   border: solid;
@@ -45,8 +56,8 @@
   align-items: center;
   text-align: center;
   padding: 2vw;
-  margin: 5vw;
-  max-width: 500px;
+  margin: 5vw 0;
+  max-width: 80vw;
 }
 
 .noProject {
@@ -80,16 +91,26 @@
   color: #2c3e50;  
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .projects {
     flex-direction: row;
     justify-content: space-around;
   }
 
+  .projects-contener{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    max-width: 70vw;
+  }
+
   .project {
-    width: 450px;
+    width: 30vw;
   }
-  .img {
-    width: 400px;
+
+  .illustration{
+    width: 30vw;
+    height: auto;
   }
+  
 }

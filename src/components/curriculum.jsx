@@ -1,5 +1,6 @@
 import React from "react";
-import "./Curriculum.css";
+import "./curriculum.css";
+import "./experiences.css";
 
 class Job extends React.Component {
   constructor(props) {
@@ -10,10 +11,11 @@ class Job extends React.Component {
   }
 
   render() {
-    const { Date, Logo, Company, Role, Skills, Description } = this.props;
+    const { Date, Logo, Company, Role, Skills, Description, id } = this.props;
     return (
-      <section className="jobdate">
+      <section data-aos={id%2===0?"fade-right":"fade-left"} className="jobdate">
         <div className="date">{Date}</div>
+        <div className="jobdate-wrapper">
         <div
           className="job"
           onClick={(event) => {
@@ -39,6 +41,7 @@ class Job extends React.Component {
             </ul>
             <p className="description">{Description}</p>
           </div>
+        </div>
         </div>
       </section>
     );

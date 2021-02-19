@@ -1,6 +1,8 @@
-import React from "react";
-import "./Experiences.css";
-import Job from "./Curriculum.jsx";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import "./experiences.css";
+import Job from "./curriculum.jsx";
 
 const experience = [
   {
@@ -77,12 +79,17 @@ const experience = [
   },
 ];
 
-const Experiences = () => (
-  <div id="Accessite">
-    {experience.map((experience) => (
-      <Job {...experience} key={experience.id} />
-    ))}
-  </div>
-);
+const Experiences = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+  return (
+    <div id="Accessite">
+      {experience.map((experience) => (
+        <Job {...experience} key={experience.id} />
+      ))}
+    </div>
+  );
+};
 
 export default Experiences;

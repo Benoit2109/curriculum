@@ -1,5 +1,5 @@
 import React from "react";
-import "./Profile.css";
+import "./profile.css";
 import GitHub from "./image/GitHub.png";
 import Menu from "./Menu.jsx";
 import linkedIn from "./image/linkedIn.png";

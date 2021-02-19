@@ -7,7 +7,7 @@
     position:fixed;
     transform: translateX(-1rem) translateY(-1.5rem);
     right:0;
-    
+    z-index:1000;
 }
 
 .burger span{

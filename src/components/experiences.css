@@ -1,3 +1,4 @@
+
 .logo {
   max-width: 150px;
   margin: 2vh;
@@ -42,14 +43,14 @@
 
 .date {
   align-self: center;
+  text-align: center;
   font-size: 1.5rem;
   font-weight: bold;
   color: #2c3e50;
 }
 
 .jobdate {
-  display: flex;
-  flex-direction: column;
+  display: block;
 }
 
 .skills {
@@ -106,21 +107,24 @@
 
 @media (min-width: 768px) {
   
-
-  .jobdate:nth-child(even) {
-    flex-direction: row-reverse;
-    
-    
+  .jobdate:nth-child(odd) .date{
+    text-align: left;
+  }
+  
+  .jobdate:nth-child(even) .date{
+    order: 2;
+    text-align: right;
   }
 
   .jobdate {
-    flex-direction: row;
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
   }
 
   .job {
     flex: 1;
-    margin:2rem 5rem;
+    margin: 2vh 0;
   }
 
   .job:hover {
@@ -129,7 +133,12 @@
 
   .date {
     flex: 1;
-    padding-left: 5vw;
+    box-sizing: border-box;
+  }
+
+  #Accessite{
+    max-width: 70vw;
+    margin: auto;
   }
 
 
