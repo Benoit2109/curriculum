@@ -13,7 +13,8 @@
 .burger span{
     width:35px;
     height:4px;
-    background-color:#F1948A;
+    background-color: #4d5656 ;
+    border: solid 1px white;
     display:block;
     transform:translateY(10px);
     border-radius:5px;
