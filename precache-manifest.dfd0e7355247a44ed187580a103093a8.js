@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ee9eb0d25224f39211470a0c119442f6",
+    "revision": "c62c040025331cf563f419264f530a37",
     "url": "/curriculum/index.html"
   },
   {
-    "revision": "22c37f591f74ed1b039d",
-    "url": "/curriculum/static/css/main.d94ff643.chunk.css"
+    "revision": "7f38029f40bffc82a72d",
+    "url": "/curriculum/static/css/main.16ec5e81.chunk.css"
   },
   {
     "revision": "83b932bb906e2bc5da8f",
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/curriculum/static/js/2.88914ffc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "22c37f591f74ed1b039d",
-    "url": "/curriculum/static/js/main.35f8b21d.chunk.js"
+    "revision": "7f38029f40bffc82a72d",
+    "url": "/curriculum/static/js/main.2ffd10f3.chunk.js"
   },
   {
     "revision": "ea8537b673971a69b88d",
     "url": "/curriculum/static/js/runtime-main.6f6a4d16.js"
   },
   {
-    "revision": "6776aeed2d3f09ab4bbe013938c5e799",
-    "url": "/curriculum/static/media/Ben_profile.6776aeed.jpg"
+    "revision": "993055cd58217cc4a6439c70a03cb5d2",
+    "url": "/curriculum/static/media/Benoit_low.993055cd.png"
   },
   {
     "revision": "98b0de319113c4038150cbcda49916d6",
