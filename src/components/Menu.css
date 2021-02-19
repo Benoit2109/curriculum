@@ -25,7 +25,8 @@
     position: absolute;
     width:100%;
     height:4px;
-    background-color:#F1948A;
+    background-color: #4d5656 ;
+    border: solid 1px white;
     transition:transform 0.5s ease-in-out;
 }
 
