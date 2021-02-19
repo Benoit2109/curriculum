@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a07ec9a4d0a86bb75181957151eb70d3",
+    "revision": "62b9ec3e99cae3b46ed6b64ec5625e09",
     "url": "/curriculum/index.html"
   },
   {
-    "revision": "c448528c52f187193afd",
+    "revision": "5ede6271449423028671",
     "url": "/curriculum/static/css/main.cff5170e.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/curriculum/static/js/2.88914ffc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c448528c52f187193afd",
-    "url": "/curriculum/static/js/main.8c1f8996.chunk.js"
+    "revision": "5ede6271449423028671",
+    "url": "/curriculum/static/js/main.d04f1d90.chunk.js"
   },
   {
     "revision": "ea8537b673971a69b88d",
     "url": "/curriculum/static/js/runtime-main.6f6a4d16.js"
   },
   {
-    "revision": "993055cd58217cc4a6439c70a03cb5d2",
-    "url": "/curriculum/static/media/Benoit_low.993055cd.png"
+    "revision": "c996c2dae043873799e11f743ddf7643",
+    "url": "/curriculum/static/media/Benoit_low.c996c2da.png"
   },
   {
     "revision": "98b0de319113c4038150cbcda49916d6",
