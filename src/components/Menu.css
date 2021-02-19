@@ -1,8 +1,8 @@
 
 
 .conteneur{
-    width:35px;
-    height:20px;
+    width:37px;
+    height:26px;
     cursor:pointer;
     position:fixed;
     transform: translateX(-1rem) translateY(-1.5rem);
@@ -42,7 +42,8 @@
 }
 
 .burger.active span{
-    background-color:transparent;  
+    background-color:transparent; 
+    border: transparent; 
 }
 
 .burger.active span::before{
