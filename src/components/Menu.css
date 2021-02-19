@@ -13,8 +13,7 @@
 .burger span{
     width:35px;
     height:4px;
-    background-color: #4d5656 ;
-    border: solid 1px white;
+    background-color: #797d7f ;
     display:block;
     transform:translateY(10px);
     border-radius:5px;
@@ -26,8 +25,7 @@
     position: absolute;
     width:100%;
     height:4px;
-    background-color: #4d5656 ;
-    border: solid 1px white;
+    background-color: #797d7f ;
     transition:transform 0.5s ease-in-out;
 }
 
@@ -43,7 +41,6 @@
 
 .burger.active span{
     background-color:transparent; 
-    border: transparent; 
 }
 
 .burger.active span::before{
