@@ -3,13 +3,13 @@ import "./Profile.css";
 import GitHub from "./image/GitHub.png";
 import Menu from "./Menu.jsx";
 import linkedIn from "./image/linkedIn.png";
-import Ben_profile from "./image/Ben_profile.jpg";
+import Benoit_low from "./image/Benoit_low.png";
 import cv from "./image/cv.png";
 
 const Profile = () => (
   <section className="profile" id="Profile">
     <Menu />
-    <img className="beaugosse" src={Ben_profile} alt="Benoit Le Bourdonnec" />
+    <img className="beaugosse" src={Benoit_low} alt="Benoit Le Bourdonnec" />
     <h1 className="name">Benoit LE BOURDONNEC</h1>
     <p>Developpeur web</p>
     <div className="réseaux">
