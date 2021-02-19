@@ -3,6 +3,7 @@ import "./Project.css";
 import EnAttendantNoel from "./image/EnAttendantNoel.png";
 import VegeNantesGo from "./image/VegeNantesGO.png";
 import MiddleTrade from "./image/MiddleTrade.png";
+import Whereisben from "./image/whereisben.jpg";
 
 const project = [
   {
@@ -23,7 +24,8 @@ const project = [
     Description:"Premier Hackathon de 24h de la formation, le thème imposée était d'inventer une application qui aurait pu aider la population d'une époque antérieur au numérique. Nous avons opter pour une application de troc au Moyen-Age, Middle Trade. Le résultat est le travail de 4 personnes après seulement 2 mois de formation et en 24 heures chrono.",
     Active:true,
     Link:"https://middle-trade.netlify.app/",
-    Repo:"https://github.com/Benoit2109/hackathon1-Middle-Trade.git"
+    Repo:"https://github.com/Benoit2109/hackathon1-Middle-Trade.git",
+    Id: 2
   },
   {
     Name: "VegeNantes Go",
@@ -31,10 +33,22 @@ const project = [
     Released: "27 novembre 2020.",
     Description:
       "le cahier des charges de ce deuxième projet a pour objectif de réaliser un site JS/REACT utilisant des APIs pour localiser et identifier les plantes des parcs et jardins de la ville de Nantes. Ce projet dure 6 semaines et l'équipe est composé de 5 personnes travaillant selon la méthode agile SCRUM.",
-    Id: 2,
+    Id: 3,
     Active: true,
     Link: "https://vegenantesgo.netlify.app/",
     Repo:"https://github.com/WildCodeSchool/nts-js-202009-p2-herbier",
+  },
+  {
+    Name: "Where the hell is Ben?",
+    Illustration: Whereisben,
+    Released: "10 février 2021",
+    Description:
+      "Projet personnel de fin de formation mettant en avant mes compétances Front et Back en ReactJs, NodeJs et Express. Utilisation d'API et d'authentifiction sur une application permettant de conserver un souvenir de ses voyages",
+    Id: 4,
+    Active: true,
+    Link: "https://wherethehellisben.netlify.app/",
+    Repo:"https://github.com/Benoit2109/whereisben.git",
+    RepoBack:"https://github.com/Benoit2109/whereisben_back.git",
   },
 ];
 
@@ -53,6 +67,7 @@ class Projects extends React.Component {
       Description,
       Link,
       Repo,
+      RepoBack
     } = this.props;
     return (
       <div className={this.state.Active ? "project" : "noProject"}>
@@ -76,6 +91,12 @@ class Projects extends React.Component {
                 repo Github.
               </a>
             </p>
+            {RepoBack? <p className="github">
+              Lien du{" "}
+              <a className="Linkblue" href={RepoBack}>
+                repo Github.
+              </a>
+            </p>:""}
           </div>
         </div>
       </div>
