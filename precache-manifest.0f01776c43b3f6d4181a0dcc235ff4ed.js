@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c3f5ac84905fedf8f1e8247a8f1a613",
+    "revision": "8f8b25c10788e8741e017594377b7e07",
     "url": "/curriculum/index.html"
   },
   {
-    "revision": "4d609b76f3c1521b44c6",
-    "url": "/curriculum/static/css/main.ab435ab1.chunk.css"
+    "revision": "221c52a899f75cb7b564",
+    "url": "/curriculum/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "83b932bb906e2bc5da8f",
-    "url": "/curriculum/static/js/2.88914ffc.chunk.js"
+    "revision": "b37a8471009d2f4d4afc",
+    "url": "/curriculum/static/css/main.5a5e0610.chunk.css"
+  },
+  {
+    "revision": "221c52a899f75cb7b564",
+    "url": "/curriculum/static/js/2.330b14cb.chunk.js"
   },
   {
     "revision": "570d362d673dab785e62d2b8563e1118",
-    "url": "/curriculum/static/js/2.88914ffc.chunk.js.LICENSE.txt"
+    "url": "/curriculum/static/js/2.330b14cb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4d609b76f3c1521b44c6",
-    "url": "/curriculum/static/js/main.83eb5ea7.chunk.js"
+    "revision": "b37a8471009d2f4d4afc",
+    "url": "/curriculum/static/js/main.8b1e3233.chunk.js"
   },
   {
     "revision": "ea8537b673971a69b88d",
@@ -41,7 +45,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "9731368995b61632d8ab3400744c9a06",
-    "url": "/curriculum/static/media/VegeNantesGO.97313689.png"
+    "url": "/curriculum/static/media/VegeNantesGo.97313689.png"
   },
   {
     "revision": "37e2ed88893ffda3b1a2c4dd165bfc38",
