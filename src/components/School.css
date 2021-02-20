@@ -1,10 +1,8 @@
 .SectionPart{
-    margin-left: 2rem;
-    color:#2C3E50;
-    font-size:2.9rem;
+    
   }
 #WildCodeSchool{
-    width: 100vw;
+    width: 90vw;
     margin:auto;
 }
 .schoolDescription{
@@ -57,14 +55,40 @@
     margin:2px;
 }
 
+.formation-contener{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+    margin-bottom: 4rem;
+}
+.formation-contener .SectionPart{
+    align-self: flex-start;
+    margin-left: -3rem;
+    color:#2C3E50;
+    font-size:2.9rem;
+    overflow: hidden;
+}
+
+.formation-contener section{
+    overflow: hidden;
+}
 
 @media (min-width:768px){
-    #WildCodeShool{
-       display: flex;
-       justify-content: center;
-    }
+    
 
     .wild{
         float:right;
+    }
+    .formation-contener{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .formation-contener .SectionPart{
+        margin-left: -8rem;
     }
 }

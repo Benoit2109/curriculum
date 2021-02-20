@@ -105,6 +105,13 @@
   transition: all 0.7s ease-in-out;
 }
 
+#Accessite .SectionPart{
+  color:#2C3E50;
+  font-size:2.9rem;
+  margin-left: 3rem;
+  overflow: hidden;
+}
+
 @media (min-width: 768px) {
   
   .jobdate:nth-child(odd) .date{
@@ -141,6 +148,9 @@
     margin: auto;
   }
 
+  #Accessite .SectionPart{
+    margin-left: -8rem;
+  }
 
   .logo{
       align-items:flex-end;

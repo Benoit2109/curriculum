@@ -13,11 +13,11 @@ function School() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div>
+    <div className="formation-contener">
       <h2 data-aos="fade-right" className="SectionPart">Formation</h2>
 
-      <section data-aos="fade-left" id="WildCodeSchool">
-        <div className="ecole">
+      <section data-aos="fade-left" >
+        <div className="ecole" id="WildCodeSchool">
           <div>
             <img
               className="wild"

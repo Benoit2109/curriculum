@@ -16,7 +16,6 @@ function App() {
       <Profile />
       <School />
       <Portfolio />
-      <h2 data-aos="fade-right" className="SectionPart">Expériences</h2>
       <Experiences />
       <Footer />
     </div>
