@@ -1,12 +1,12 @@
 
 
 .conteneur{
-    width:37px;
-    height:26px;
-    cursor:pointer;
-    position:fixed;
-    transform: translateX(-1rem) translateY(-1.5rem);
-    right:0;
+    width: 37px;
+    height: 50px;
+    cursor: pointer;
+    position: fixed;
+    top: 1rem;
+    right: 8rem;
     z-index:1000;
 }
 
@@ -41,16 +41,18 @@
 
 .burger.active span{
     background-color:transparent; 
+    
 }
 
 .burger.active span::before{
     transform:translateY(0px) rotateZ(45deg);
     
+    
 }
 
 .burger.active span::after{
     transform:translateY(0px) rotateZ(-45deg);
-    
+   
 }
 
 .menu{
@@ -64,17 +66,21 @@
 }
 
 .slideWindow{
-    transform:translateX(-3rem);
+    
     transition:all 0.4s ease-in-out;
     position:fixed;
-    right:0;
+    right: 6rem;
+    top: 4rem;
     background-color:white;
     z-index:3;
     
 }
 .slideWindowClose{
-    transform:translateX(10rem);
     transition:all 0.4s ease-in-out;
     position:fixed;
-    right:0;
+    right: 6rem;
+    top: 4rem;
+    overflow: hidden;
+    opacity: 0;
 }
+
