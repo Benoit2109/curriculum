@@ -85,10 +85,12 @@ const Experiences = () => {
   }, []);
   return (
     <div id="Accessite">
-      <h2 data-aos="fade-right" className="SectionPart">Expériences</h2>
+      <div>
+      <h2 className="SectionPart" id="experiences">Expériences</h2>
       {experience.map((experience) => (
         <Job {...experience} key={experience.id} />
       ))}
+      </div>
     </div>
   );
 };

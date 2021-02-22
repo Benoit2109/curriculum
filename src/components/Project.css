@@ -1,16 +1,11 @@
 #Portfolio .SectionPart {
-  margin-left: 4rem;
   margin-bottom: 2rem;
   color: #2c3e50;
   font-size: 2.9rem;
-  text-align: left;
+  align-self: flex-start;
 }
 
-#Portfolio .SectionPart{
-  text-align: left;
-  width: 100%;
-  overflow: hidden;
-}
+
 
 .img {
   height: auto;
@@ -34,15 +29,14 @@
   display: flex;
   flex-direction: column;
   background-color: #839192;
-  width: 96vw;
-  padding: 2vh 2vw;
+  width: auto;
+  padding: 2vh 0;
   align-items: center;
   flex-wrap: wrap;
   align-content: center;
 }
 
 .projects-contener{
-  max-width: 90vw;
   align-items: center;
 }
 
@@ -58,7 +52,7 @@
   text-align: center;
   padding: 2vw;
   margin: 5vw 0;
-  max-width: 80vw;
+  max-width: 90vw;
 }
 
 .noProject {
@@ -94,15 +88,16 @@
 
 @media (min-width: 900px) {
   .projects {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
   }
-
   .projects-contener{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
     max-width: 70vw;
+    margin-top: 4rem;
+    justify-content: center;
   }
 
   .project {
@@ -112,6 +107,10 @@
   .illustration{
     width: 30vw;
     height: auto;
+  }
+
+  #Portfolio .SectionPart{
+    margin-left: -8rem;
   }
   
 }

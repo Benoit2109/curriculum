@@ -71,10 +71,9 @@ class Projects extends React.Component {
       Link,
       Repo,
       RepoBack,
-      Id,
     } = this.props;
     return (
-      <div data-aos={Id%2===0?"fade-left":"fade-right"} className={this.state.Active ? "project" : "noProject"}>
+      <div data-aos="fade-right" className={this.state.Active ? "project" : "noProject"}>
         <div className="illustration">
           <a href={Link}>
             <img className="img" src={Illustration} alt={Name} />
@@ -116,7 +115,7 @@ const Portfolio = () => {
   
   return (
     <div className="projects" id="Portfolio">
-      <h2 data-aos="fade-right" className="SectionPart">Portfolio</h2>
+      <h2 className="SectionPart">Portfolio</h2>
       <div className="projects-contener">
         {project.map((project) => (
           <Projects {...project} key={project.Id} />

@@ -14,9 +14,9 @@ function School() {
   }, []);
   return (
     <div className="formation-contener">
-      <h2 data-aos="fade-right" className="SectionPart">Formation</h2>
+      <h2 className="SectionPart">Formation</h2>
 
-      <section data-aos="fade-left" >
+      <section data-aos="fade-right">
         <div className="ecole" id="WildCodeSchool">
           <div>
             <img

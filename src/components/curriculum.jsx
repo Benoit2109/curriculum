@@ -11,9 +11,9 @@ class Job extends React.Component {
   }
 
   render() {
-    const { Date, Logo, Company, Role, Skills, Description, id } = this.props;
+    const { Date, Logo, Company, Role, Skills, Description } = this.props;
     return (
-      <section data-aos={id%2===0?"fade-right":"fade-left"} className="jobdate">
+      <section data-aos="fade-right" className="jobdate">
         <div className="date">{Date}</div>
         <div className="jobdate-wrapper">
         <div
