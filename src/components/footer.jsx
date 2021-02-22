@@ -10,8 +10,8 @@ const Footer = () => (
         Benoit Le Bourdonnec
       </a>
     </p>
-    <p>(octobre 2020)</p>
-    <p className="footerInfo">benoitlb@me.com - 07 81 29 74 47</p>
+    <p>(February 2021)</p>
+    <p className="footerInfo"><a href="mailto:benoitlb@me.com">benoitlb@me.com</a> - <a href="tel:+33781297447">07 81 29 74 47</a></p>
   </div>
 );
 
