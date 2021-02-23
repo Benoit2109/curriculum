@@ -49,6 +49,10 @@ p{
 
 h1{
     margin-bottom:0;
+    font-family: Avenir Next Condensed;
+    font-size: 3rem;
+    font-weight: 400;
+    transform:translateY(-3rem);
 }
 
 .réseaux{
