@@ -41,10 +41,8 @@
 }
 
 .project {
-  border: solid;
-  border-width: 1px;
-  border-radius: 10px;
-  border-color: #2c3e50;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px grey;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -56,11 +54,9 @@
 }
 
 .noProject {
-    border: solid;
-    border-width: 1px;
-    border-radius: 10px;
-    border-color: #2c3e50;
+    border-radius: 5px;
     background-color: #F5B7B1;
+    box-shadow: 4px 4px 4px grey;
     display: flex;
     flex-direction: column;
     align-items: center;
