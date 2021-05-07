@@ -5,7 +5,7 @@ const Footer = () => (
   <div className="footer">
     <p className="footerInfo">
       télécharger le CV de{" "}
-      <a href="Benoit Le Bourdonnec.pdf" download>
+      <a href="Benoit-Le-Bourdonnec.pdf" download>
         {" "}
         Benoit Le Bourdonnec
       </a>
