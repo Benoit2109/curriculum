@@ -6,6 +6,24 @@ import Job from "./curriculum.jsx";
 
 const experience = [
   {
+    Company: "GOOD ANGEL",
+    Role: "Stagiaire Developpeur Web",
+    Logo:
+      "https://www.secours-expo.com/wp-content/uploads/2019/03/logo_good_angel.png",
+    Skills: [
+      "HTML",
+      "CSS",
+      "AXIOS",
+      "REACT",
+      "DOCKER",
+    ],
+    Description:
+      "Développer un outil de proposition de devis d'assurance automobile en REACT. Utilisation d'API, SWAGGER, LEAFLET, REDUX, CONTEXT. Intégration du module REACT dans un site PHP. Initiation à DOCKER. Création de site vitrine statique en HTML CSS et BOOTSTRAP. Création d'une boutique e-commerce avec Shopify.",
+    id: 5,
+    Date: "Février 2021 - Juin 2021",
+    Open: false,
+  },
+  {
     Company: "ACCESSITE (44)",
     Role: "Directeur Multi-Sites OUEST",
     Logo:

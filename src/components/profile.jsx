@@ -11,7 +11,7 @@ const Profile = () => (
     <Menu />
     <img className="beaugosse" src={Benoit_high} alt="Benoit Le Bourdonnec" />
     <h1 className="name">Benoit LE BOURDONNEC</h1>
-    <p>Developpeur web mobile React - Symfony</p>
+    <p>Developpeur web mobile  FULL STACK <strong>React - Node Js</strong></p>
     <div className="réseaux">
       <a href="https://github.com/Benoit2109?tab=repositories">
         <img className="git" src={GitHub} alt="git" />
@@ -26,7 +26,7 @@ const Profile = () => (
     <div>
       <p className="who">
         Actuellement en reconversion, je souhaite redonner un sens à mon avenir
-        professionnel en devenant développeur web mobile (REACT / JS - SYMFONY / PHP). En stage chez <a href="www.good-angel.fr">GOOD ANGEL</a> jusqu'au 04 juin 2021, mais après? Pourquoi pas avec vous <span role="img" aria-label="finger point down">👇</span> ?
+        professionnel en devenant développeur web mobile (REACT / NODE JS). En stage chez <a href="www.good-angel.fr">GOOD ANGEL</a> jusqu'au 11 juin 2021, mais après? Pourquoi pas avec vous <span role="img" aria-label="finger point down">👇</span> ?
       </p>
     </div>
   </section>

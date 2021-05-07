@@ -7,6 +7,7 @@ import CSSLogo from "./image/CSS.png";
 import HTML5 from "./image/image.png";
 import Node from "./image/node.png";
 import JS from "./image/Javascript.png";
+import Docker from "./image/docker.png";
 
 function School() {
   useEffect(() => {
@@ -53,6 +54,9 @@ function School() {
 
               <li>
                 <img className="logiciel" src={Node} alt="node" />
+              </li>
+              <li>
+                <img className="logiciel" src={Docker} alt="docker" />
               </li>
             </ul>
           </div>
