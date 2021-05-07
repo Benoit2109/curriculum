@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/curriculum/static/css/main.1b888e51.chunk.css",
-    "main.js": "/curriculum/static/js/main.2b1f8704.chunk.js",
-    "main.js.map": "/curriculum/static/js/main.2b1f8704.chunk.js.map",
+    "main.css": "/curriculum/static/css/main.6f3d2344.chunk.css",
+    "main.js": "/curriculum/static/js/main.5503ab86.chunk.js",
+    "main.js.map": "/curriculum/static/js/main.5503ab86.chunk.js.map",
     "runtime-main.js": "/curriculum/static/js/runtime-main.6f6a4d16.js",
     "runtime-main.js.map": "/curriculum/static/js/runtime-main.6f6a4d16.js.map",
     "static/css/2.4707e12a.chunk.css": "/curriculum/static/css/2.4707e12a.chunk.css",
-    "static/js/2.330b14cb.chunk.js": "/curriculum/static/js/2.330b14cb.chunk.js",
-    "static/js/2.330b14cb.chunk.js.map": "/curriculum/static/js/2.330b14cb.chunk.js.map",
+    "static/js/2.3be6e8d1.chunk.js": "/curriculum/static/js/2.3be6e8d1.chunk.js",
+    "static/js/2.3be6e8d1.chunk.js.map": "/curriculum/static/js/2.3be6e8d1.chunk.js.map",
     "index.html": "/curriculum/index.html",
-    "precache-manifest.88b207d098e2b44e62396b5a838def66.js": "/curriculum/precache-manifest.88b207d098e2b44e62396b5a838def66.js",
+    "precache-manifest.4d9ca61af42bdca72cbc3b9751e0d168.js": "/curriculum/precache-manifest.4d9ca61af42bdca72cbc3b9751e0d168.js",
     "service-worker.js": "/curriculum/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/curriculum/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.1b888e51.chunk.css.map": "/curriculum/static/css/main.1b888e51.chunk.css.map",
-    "static/js/2.330b14cb.chunk.js.LICENSE.txt": "/curriculum/static/js/2.330b14cb.chunk.js.LICENSE.txt",
+    "static/css/main.6f3d2344.chunk.css.map": "/curriculum/static/css/main.6f3d2344.chunk.css.map",
+    "static/js/2.3be6e8d1.chunk.js.LICENSE.txt": "/curriculum/static/js/2.3be6e8d1.chunk.js.LICENSE.txt",
     "static/media/Benoit_high.png": "/curriculum/static/media/Benoit_high.58b157ea.png",
     "static/media/EnAttendantNoel.png": "/curriculum/static/media/EnAttendantNoel.98b0de31.png",
     "static/media/MiddleTrade.png": "/curriculum/static/media/MiddleTrade.e5179f6a.png",
     "static/media/ReactLogoBlack.png": "/curriculum/static/media/ReactLogoBlack.8f6e28dd.png",
     "static/media/VegeNantesGo.png": "/curriculum/static/media/VegeNantesGo.97313689.png",
+    "static/media/docker.png": "/curriculum/static/media/docker.6e65e48a.png",
     "static/media/image.png": "/curriculum/static/media/image.37e2ed88.png",
     "static/media/node.png": "/curriculum/static/media/node.d649c415.png",
     "static/media/whereisben.jpg": "/curriculum/static/media/whereisben.e1de56da.jpg"
@@ -26,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.6f6a4d16.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.330b14cb.chunk.js",
-    "static/css/main.1b888e51.chunk.css",
-    "static/js/main.2b1f8704.chunk.js"
+    "static/js/2.3be6e8d1.chunk.js",
+    "static/css/main.6f3d2344.chunk.css",
+    "static/js/main.5503ab86.chunk.js"
   ]
 }
