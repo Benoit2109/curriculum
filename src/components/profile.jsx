@@ -25,8 +25,7 @@ const Profile = () => (
     </div>
     <div>
       <p className="who">
-        Actuellement en reconversion, je souhaite redonner un sens à mon avenir
-        professionnel en devenant développeur web mobile (REACT / NODE JS). En stage chez <a href="www.good-angel.fr">GOOD ANGEL</a> jusqu'au 11 juin 2021, mais après? Pourquoi pas avec vous <span role="img" aria-label="finger point down">👇</span> ?
+        Ma reconversion professionnelle venant de s'achever avec le passage du titre professionnel de Dévelppeur Web et Web Mobile, je suis disponible dès septembre pour une entreprise souhaitant renforcer son équipe. Pourquoi pas vous <span role="img" aria-label="finger point down">👇</span> ?
       </p>
     </div>
   </section>
