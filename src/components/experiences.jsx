@@ -27,7 +27,7 @@ const experience = [
     Company: "ACCESSITE (44)",
     Role: "Directeur Multi-Sites OUEST",
     Logo:
-      "https://www.digital-make-it.com/wp-content/uploads/2019/10/accessite.png",
+      "https://www.accessite.eu/wp-content/uploads/2020/11/cropped-logo-seul-fond-clair-retaille-1.png",
     Skills: [
       "Budgets",
       "Animations",

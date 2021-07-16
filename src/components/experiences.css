@@ -47,6 +47,7 @@
   font-size: 1.5rem;
   font-weight: bold;
   color: #2c3e50;
+  flex: 1;
 }
 
 .jobdate {
@@ -110,6 +111,10 @@
   font-size:2.9rem;
   margin-left: .5rem;
   overflow: hidden;
+}
+
+.jobdate-wrapper{
+  flex: 1;
 }
 
 @media (min-width: 768px) {

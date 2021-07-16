@@ -32,9 +32,7 @@ function School() {
             <p className="schoolDescription">
               5 mois (700h) et 4 mois de stage (15 février au 11 juin 2021),
               formation débutée le 11 septembre 2020. 3 projets d'applications
-              structurent la formation et seront accessibles sur GitHub Pages.
-              Nous apprenons et travaillons en utilisant les méthodes agiles,
-              notamment SCRUM.
+              structurent la formation et sont accessibles sur GitHub. L'ensemble des projets travaillés en formation ont été structuré et suivi grâce à la méthode Agile, SCRUM.
             </p>
           </div>
           <div className="compétences">

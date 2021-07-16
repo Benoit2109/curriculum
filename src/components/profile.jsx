@@ -11,7 +11,8 @@ const Profile = () => (
     <Menu />
     <img className="beaugosse" src={Benoit_high} alt="Benoit Le Bourdonnec" />
     <h1 className="name">Benoit LE BOURDONNEC</h1>
-    <p>Developpeur web mobile  FULL STACK <strong>React - Node Js</strong></p>
+    <p className="profile_title">Développeur web mobile  FULL STACK</p>
+    <p className="profile_title"><strong>React - Node Js</strong></p>
     <div className="réseaux">
       <a href="https://github.com/Benoit2109?tab=repositories">
         <img className="git" src={GitHub} alt="git" />
